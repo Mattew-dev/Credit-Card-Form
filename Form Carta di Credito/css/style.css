@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
+
+body{
+    background: #ddeefc;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+}
+
+.container-form{
+    background-color: white;
+    width: 500px;
+    height: 520px;
+    margin-top: 270px;
+    margin-left: 700px;
+    border-radius: 20px;
+    box-shadow: 0 40px 70px 0 rgba(90, 116, 148, 0.4);
+}
+
+.container-carta{
+    background-color: #7a002b;
+    opacity: 80%;
+    width: 450px;
+    height: 260px;
+    margin-top: -640px;
+    margin-left: 725px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.container-carta:hover{
+    opacity: 90%;
+    
+    padding-left: -10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    box-shadow:0 0 6px 6px  #7a002bb7;
+}
+
+.container-pin-oro{
+    background-color: silver;
+    opacity: 80%;
+    width: 70px;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 755px;
+    margin-top: -240px;
+    box-shadow:0 0 2px 2px  silver;
+}
+
+.visa-logo{
+    font-size: 20px;
+    height: 70px;
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 310px;
+}
+
+.numero-carta{
+    color: #ddeefc;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 50px;
+    word-spacing: 9px; 
+
+    text-shadow: 2px 2px 3px rgb(255, 255, 255), 0 0 2em rgb(255, 255, 255), 0 0 0.3em rgb(255, 255, 255);
+}
+
+.titolare-carta{
+    color: #ddeefc;
+    opacity: 80%;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 5px;
+
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.1em rgb(255, 255, 255);
+}
+
+.nome-titolare{
+    color: #ddeefc;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-left: 5px;
+
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.1em rgb(255, 255, 255);
+}
+
+.scadenza-valida{
+    color: #ddeefc;
+    opacity: 80%;
+    font-size: 20px;
+    margin-top: -70px;
+    margin-left: 300px;
+
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.1em rgb(255, 255, 255);
+}
+
+.scadenza{
+    color: #ddeefc;
+    font-size: 20px;
+    margin-top: -14px;
+    margin-left: 270px;
+    text-align: center;
+
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.1em rgb(255, 255, 255);
+}
+
+/* COMPILAZIONE FORM   */
+.container-num{
+    margin-left: 40px;
+    padding-top: 125px;
+}
+
+.in-num{
+    width: 400px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 1px solid grey;
+    margin-top: -22px;
+    transition: .4s;
+}
+
+.in-num:hover{
+    box-shadow:0 0 3px 3px  black;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.num-car{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(117, 117, 117), 0 0 0.1em rgb(90, 90, 90);
+}
+
+.container-nome{
+    margin-left: 40px;
+}
+
+.in-nome{
+    width: 400px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 1px solid grey;
+    margin-top: -22px;
+    transition: .4s;
+}
+
+.in-nome:hover{
+    box-shadow:0 0 3px 3px  black;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nome-tt{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(117, 117, 117), 0 0 0.1em rgb(90, 90, 90);
+}
+
+.container-scadenza{
+    margin-left: 70px;
+}
+
+.in-scadenza{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 1px solid grey;
+    margin-top: -20px;
+    transition: .4s;
+}
+
+.in-scadenza:hover{
+    box-shadow:0 0 3px 3px  black;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.scadenza-car{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(117, 117, 117), 0 0 0.1em rgb(90, 90, 90);
+}
+
+.container-cvv{
+    margin-left: 280px;
+    margin-top: -100px;
+}
+
+.in-cvv{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 1px solid grey;
+    margin-top: -20px;
+    transition: .4s;
+}
+
+.in-cvv:hover{
+    box-shadow:0 0 3px 3px  black;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lett-cvv{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(117, 117, 117), 0 0 0.1em rgb(90, 90, 90);
+}
+
+/*  BOTTONE CONFERMA  */
+.container-conferma{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.btn{
+    margin-left: 70px;
+    font-size: 35px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #7a002b;
+
+    text-shadow: 2px 2px 3px rgb(255, 255, 255), 0 0 2em rgb(255, 255, 255), 0 0 0.3em rgb(255, 255, 255);
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .4s;
+}
+
+.btn:hover{
+    box-shadow:0 0 3px 3px  black;
+
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
